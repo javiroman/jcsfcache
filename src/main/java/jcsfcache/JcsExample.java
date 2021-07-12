@@ -1,4 +1,4 @@
-package org.jcsfcache;
+package main.java.jcsfcache;
 
 import org.apache.commons.jcs.JCS;
 import org.apache.commons.jcs.access.CacheAccess;

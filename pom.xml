@@ -65,7 +65,7 @@
                     <archive>
                         <manifest>
                             <mainClass>
-                                main.java.org.jcsfcache.JcsExample
+                                main.java.jcsfcache.JcsExample
                             </mainClass>
 
                         </manifest>
@@ -110,7 +110,7 @@
                                         implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.jcsfcache.JcsExample</mainClass>
+                                    <mainClass>main.java.jcsfcache.JcsExample</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
